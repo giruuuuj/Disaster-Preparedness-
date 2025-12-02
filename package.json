@@ -25,6 +25,11 @@
     "socket.io-client": "^4.8.1",
     "web-vitals": "^2.1.4"
   },
+  // package.json should now include:
+"dependencies": {
+  "socket.io-client": "^4.7.2",
+  // ... other dependencies
+}
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
